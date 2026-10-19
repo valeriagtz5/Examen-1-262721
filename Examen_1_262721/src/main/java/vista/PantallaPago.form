@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0" />
+    <Property name="title" type="java.lang.String" value="Pagar Servicio de Luz" />
+    <Property name="name" type="java.lang.String" value="pantallaPago" />
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1" />
+    <SyntheticProperty name="generateCenter" type="boolean" value="false" />
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing" />
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true" />
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1" />
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2" />
+  </AuxValues>
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Component id="pnlPrincipal" alignment="0" max="32767" attributes="0" />
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Component id="pnlPrincipal" alignment="0" max="32767" attributes="0" />
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlPrincipal">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb" />
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="65" max="32767" attributes="0" />
+              <Component id="pnlBase" min="-2" max="-2" attributes="0" />
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0" />
+            </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="43" max="32767" attributes="0" />
+              <Component id="pnlBase" min="-2" max="-2" attributes="0" />
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0" />
+            </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlBase">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb" />
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="ff" type="rgb" />
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[724, 640]" />
+            </Property>
+          </Properties>
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                  <Component id="pnlNoServicio" min="-2" max="-2" attributes="0" />
+                  <EmptySpace max="32767" attributes="0" />
+                  <Component id="pnlClientes" min="-2" max="-2" attributes="0" />
+                </Group>
+                <Component id="pnlDatos" alignment="0" max="32767" attributes="0" />
+                <Component id="PNLTITULO" alignment="0" max="32767" attributes="0" />
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                  <Component id="PNLTITULO" min="-2" max="-2" attributes="0" />
+                  <EmptySpace max="-2" attributes="0" />
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                    <Component id="pnlClientes" max="32767" attributes="0" />
+                    <Component id="pnlNoServicio" max="32767" attributes="0" />
+                  </Group>
+                  <EmptySpace max="-2" attributes="0" />
+                  <Component id="pnlDatos" max="32767" attributes="0" />
+                </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="PNLTITULO">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="65" green="2a" red="0" type="rgb" />
+                </Property>
+              </Properties>
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0" />
+                      <Component id="lblTutilo" min="-2" max="-2" attributes="0" />
+                      <EmptySpace min="-2" pref="274" max="-2" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="11" max="32767" attributes="0" />
+                      <Component id="lblTutilo" min="-2" pref="17" max="-2" attributes="0" />
+                      <EmptySpace max="-2" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblTutilo">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Kailasa" size="13" style="1" />
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb" />
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Pagar Servicio de Luz" />
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pnlNoServicio">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb" />
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb" />
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Component id="pnlTitiloNoServicio" alignment="0" max="32767" attributes="0" />
+                    <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0" />
+                      <Component id="lblTextoNoServicio" min="-2" max="-2" attributes="0" />
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0" />
+                    </Group>
+                    <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0" />
+                      <Component id="txtNoServicio" min="-2" pref="229" max="-2" attributes="0" />
+                      <EmptySpace pref="54" max="32767" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="0" attributes="0">
+                      <Component id="pnlTitiloNoServicio" min="-2" max="-2" attributes="0" />
+                      <EmptySpace type="separate" max="-2" attributes="0" />
+                      <Component id="lblTextoNoServicio" min="-2" max="-2" attributes="0" />
+                      <EmptySpace type="unrelated" max="-2" attributes="0" />
+                      <Component id="txtNoServicio" min="-2" max="-2" attributes="0" />
+                      <EmptySpace min="0" pref="101" max="32767" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="pnlTitiloNoServicio">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="d4" green="9f" red="79" type="rgb" />
+                    </Property>
+                  </Properties>
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="116" max="-2" attributes="0" />
+                          <Component id="lblNoServicio" min="-2" max="-2" attributes="0" />
+                          <EmptySpace max="32767" attributes="0" />
+                        </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0" />
+                          <Component id="lblNoServicio" min="-2" max="-2" attributes="0" />
+                          <EmptySpace pref="11" max="32767" attributes="0" />
+                        </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblNoServicio">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb" />
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Helvetica Neue" size="13" style="1" />
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb" />
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Número de Servicio" />
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="lblTextoNoServicio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ingresa tu Número de Servicio:" />
+                    <Property name="toolTipText" type="java.lang.String" value="" />
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtNoServicio">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="txtNoServicio" />
+                  </Properties>
+                  <Events>
+                    <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="txtNoServicioCaretUpdate" />
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pnlClientes">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb" />
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb" />
+                    </LineBorder>
+                  </Border>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[360, 212]" />
+                </Property>
+              </Properties>
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Component id="pnlTituloClientes" max="32767" attributes="0" />
+                    <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="84" max="-2" attributes="0" />
+                      <Component id="lblTextoClientes" min="-2" max="-2" attributes="0" />
+                      <EmptySpace pref="94" max="32767" attributes="0" />
+                    </Group>
+                    <Component id="srlClientes" alignment="0" max="32767" attributes="0" />
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="0" attributes="0">
+                      <Component id="pnlTituloClientes" min="-2" max="-2" attributes="0" />
+                      <EmptySpace max="-2" attributes="0" />
+                      <Component id="lblTextoClientes" min="-2" max="-2" attributes="0" />
+                      <EmptySpace max="-2" attributes="0" />
+                      <Component id="srlClientes" max="32767" attributes="0" />
+                      <EmptySpace max="-2" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="pnlTituloClientes">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="d4" green="9f" red="79" type="rgb" />
+                    </Property>
+                  </Properties>
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="107" max="-2" attributes="0" />
+                          <Component id="lblClientes" min="-2" max="-2" attributes="0" />
+                          <EmptySpace max="32767" attributes="0" />
+                        </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0" />
+                          <Component id="lblClientes" min="-2" max="-2" attributes="0" />
+                          <EmptySpace pref="11" max="32767" attributes="0" />
+                        </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblClientes">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Helvetica Neue" size="13" style="1" />
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb" />
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Clientes Encontrados" />
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="srlClientes">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb" />
+                    </Property>
+                  </Properties>
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+                  <SubComponents>
+                    <Component class="javax.swing.JList" name="lstClientes">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="lstClientes" />
+                        <Property name="selectionMode" type="int" value="0" />
+                        <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="modeloClientes" type="code" />
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="valueChanged" listener="javax.swing.event.ListSelectionListener" parameters="javax.swing.event.ListSelectionEvent" handler="lstClientesValueChanged" />
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Servicio&gt;" />
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="lblTextoClientes">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Aún no hay datos de clientes." />
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pnlDatos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb" />
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb" />
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Component id="pnlTituloDatos" max="32767" attributes="0" />
+                    <Component id="srlDatos" max="32767" attributes="0" />
+                    <Component id="pnlBotones" max="32767" attributes="0" />
+                    <Component id="lblMensajePago" max="32767" attributes="0" />
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="0" attributes="0">
+                      <Component id="pnlTituloDatos" min="-2" max="-2" attributes="0" />
+                      <Component id="srlDatos" max="32767" attributes="0" />
+                      <Component id="pnlBotones" min="-2" max="-2" attributes="0" />
+                      <Component id="lblMensajePago" min="-2" max="-2" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="pnlTituloDatos">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="d4" green="9f" red="79" type="rgb" />
+                    </Property>
+                  </Properties>
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0" />
+                          <Component id="lblDatos" min="-2" max="-2" attributes="0" />
+                          <EmptySpace min="-2" pref="288" max="-2" attributes="0" />
+                        </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0" />
+                          <Component id="lblDatos" min="-2" max="-2" attributes="0" />
+                          <EmptySpace pref="9" max="32767" attributes="0" />
+                        </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblDatos">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Helvetica Neue" size="13" style="1" />
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb" />
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Datos de Consumo" />
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="srlDatos">
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtDatos">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false" />
+                        <Property name="columns" type="int" value="45" />
+                        <Property name="rows" type="int" value="19" />
+                        <Property name="lineWrap" type="boolean" value="true" />
+                        <Property name="wrapStyleWord" type="boolean" value="true" />
+                        <Property name="name" type="java.lang.String" value="txtDatos" />
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="pnlBotones">
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout" />
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblTarjeta">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="lblTarjeta" />
+                        <Property name="text" type="java.lang.String" value="Número de tarjeta:" />
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtTarjeta">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="txtTarjeta" />
+                        <Property name="columns" type="int" value="20" />
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTarjetaActionPerformed" />
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnPagar">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="btnPagar" />
+                        <Property name="text" type="java.lang.String" value="Pagar" />
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPagarActionPerformed" />
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnVolver">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="btnVolver" />
+                        <Property name="text" type="java.lang.String" value="Volver" />
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVolverActionPerformed" />
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="lblMensajePago">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value=" " />
+                    <Property name="name" type="java.lang.String" value="lblMensajePago" />
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb" />
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
